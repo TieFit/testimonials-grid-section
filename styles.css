@@ -9,149 +9,155 @@ html {
 }
 
 body {
+    font-family: "Barlow Semi Condensed", sans-serif ;
+
     height: 100%;
 }
 
-.testimonials {
+#testimonials {
 
 }
 
-.Daniel {
+#Daniel {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(263, 55%, 52%);
 
 }
 
-.Daniel .wrapper {
+#Daniel .wrapper {
+    
+}
+
+#Daniel img {
 
 }
 
-.Daniel img {
+#Daniel h3 {
 
 }
 
-.Daniel h3 {
+#Daniel h4 {
 
 }
 
-.Daniel h4 {
+#Daniel .headline {
 
 }
 
-.Daniel .headline {
+#Daniel .bio {
 
 }
 
-.Daniel .bio {
+#Jonathon {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(217, 19%, 35%);
+}
+
+#Jonathon .wrapper {
 
 }
 
-.Jonathon {
+#Jonathon img {
 
 }
 
-.Jonathon .wrapper {
+#Jonathon h3 {
 
 }
 
-.Jonathon img {
+#Jonathon h4 {
 
 }
 
-.Jonathon h3 {
+#Jonathon .headline {
 
 }
 
-.Jonathon h4 {
+#Jonathon .bio {
 
 }
 
-.Jonathon .headline {
+#Jeanette {
+    color: hsl(224, 10%, 45%);
+}
+
+#Jeanette .wrapper {
 
 }
 
-.Jonathon .bio {
+#Jeanette img {
 
 }
 
-.Jeanette {
+#Jeanette h3 {
 
 }
 
-.Jeanette .wrapper {
+#Jeanette h4 {
 
 }
 
-.Jeanette img {
+#Jeanette .headline {
 
 }
 
-.Jeanette h3 {
+#Jeanette .bio {
 
 }
 
-.Jeanette h4 {
+#Patrick {
+    color: hsl(214, 17%, 92%);
+    background-color: hsl(219, 29%, 14%);
+}
+
+#Patrick .wrapper {
 
 }
 
-.Jeanette .headline {
+#Patrick img {
 
 }
 
-.Jeanette .bio {
+#Patrick h3 {
 
 }
 
-.Patrick {
+#Patrick h4 {
 
 }
 
-.Patrick .wrapper {
+#Patrick .headline {
 
 }
 
-.Patrick img {
+#Patrick .bio {
 
 }
 
-.Patrick h3 {
+#Kira {
+    color: hsl(224, 10%, 45%);
+}
+
+#Kira .wrapper {
 
 }
 
-.Patrick h4 {
+#Kira img {
 
 }
 
-.Patrick .headline {
+#Kira h3 {
 
 }
 
-.Patrick .bio {
+#Kira h4 {
 
 }
 
-.Kira {
+#Kira .headline {
 
 }
 
-.Kira .wrapper {
-
-}
-
-.Kira img {
-
-}
-
-.Kira h3 {
-
-}
-
-.Kira h4 {
-
-}
-
-.Kira .headline {
-
-}
-
-.Kira .bio {
+#Kira .bio {
 
 }

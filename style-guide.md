@@ -16,7 +16,6 @@ The designs were created to the following widths:
 - Purple 50: hsl(260, 100%, 95%)
 - Purple 300: hsl(264, 82%, 80%)
 - Purple 500: hsl(263, 55%, 52%)
-
 ### Neutral
 
 - White: hsl(0, 0%, 100%)
