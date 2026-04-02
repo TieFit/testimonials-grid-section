@@ -28,7 +28,11 @@ body {
 }
 
 #Daniel .wrapper {
-    
+    padding: 1rem;
+}
+
+#Daniel .img-wrapper {
+
 }
 
 #Daniel img {
@@ -54,9 +58,15 @@ body {
 #Jonathon {
     color: hsl(0, 0%, 100%);
     background-color: hsl(217, 19%, 35%);
+
+    margin: 2rem 2rem 1rem 2rem;
 }
 
 #Jonathon .wrapper {
+    margin: 1rem;
+}
+
+#Jonathon .img-wrapper {
 
 }
 
@@ -83,6 +93,8 @@ body {
 #Jeanette {
     background-color: hsl(0, 0%, 100%);
     color: hsl(224, 10%, 45%);
+
+    margin: 2rem 2rem 1rem 2rem;
 }
 
 #Jeanette .wrapper {
@@ -112,6 +124,8 @@ body {
 #Patrick {
     color: hsl(214, 17%, 92%);
     background-color: hsl(219, 29%, 14%);
+
+    margin: 2rem 2rem 1rem 2rem;
 }
 
 #Patrick .wrapper {
@@ -141,6 +155,8 @@ body {
 #Kira {
     background-color: hsl(0, 0%, 100%);
     color: hsl(224, 10%, 45%);
+
+    margin: 2rem 2rem 1rem 2rem;
 }
 
 #Kira .wrapper {
