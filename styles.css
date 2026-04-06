@@ -9,6 +9,7 @@ html {
 }
 
 body {
+    font-size: 1em;
     font-family: "Barlow Semi Condensed", sans-serif ;
 
     display: grid;
@@ -32,19 +33,35 @@ body {
 }
 
 #Daniel .img-wrapper {
-
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 #Daniel img {
+    border: 2px solid hsl(264, 82%, 80%);
+    border-radius: 50%;
 
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
 }
 
-#Daniel h3 {
+#Daniel .info {
+    display: flex;
+    flex-direction: column;
+}
 
+#Daniel h3, h4 {
+    font-size: .9em;
+    font-weight: 400;
+    opacity: .9;
 }
 
 #Daniel h4 {
+    font-size: .8em;
 
+    padding-top: .2rem;
 }
 
 #Daniel .headline {
@@ -54,6 +71,8 @@ body {
 #Daniel .bio {
 
 }
+
+/*****************************************************************************************/
 
 #Jonathon {
     color: hsl(0, 0%, 100%);
@@ -90,6 +109,8 @@ body {
 
 }
 
+/*****************************************************************************************/
+
 #Jeanette {
     background-color: hsl(0, 0%, 100%);
     color: hsl(224, 10%, 45%);
@@ -121,6 +142,8 @@ body {
 
 }
 
+/*****************************************************************************************/
+
 #Patrick {
     color: hsl(214, 17%, 92%);
     background-color: hsl(219, 29%, 14%);
@@ -151,6 +174,8 @@ body {
 #Patrick .bio {
 
 }
+
+/*****************************************************************************************/
 
 #Kira {
     background-color: hsl(0, 0%, 100%);
