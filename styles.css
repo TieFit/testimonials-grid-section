@@ -8,7 +8,62 @@ html {
     height: 100%;
 }
 
-/***** Global Styles Start *****/
+body {
+    font-size: 1em;
+    font-family: "Barlow Semi Condensed", sans-serif ;
+    height: 100%;
+}
+
+#testimonials {
+    background-color: hsl(214, 17%, 92%);
+}
+
+#Daniel {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(263, 55%, 52%);
+    border-radius: .5rem;
+
+    padding: 1rem;
+    margin: 2rem 2rem 1rem 2rem;
+}
+
+#Jonathan {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(217, 19%, 35%);
+    border-radius: .5rem;
+
+    padding: 1rem;
+    margin: 2rem 2rem 1rem 2rem;
+}
+
+#Jeanette {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(224, 10%, 45%);
+    border-radius: .5rem;
+
+    padding: 1rem;
+    margin: 2rem 2rem 1rem 2rem;
+}
+
+#Patrick {
+    color: hsl(214, 17%, 92%);
+    background-color: hsl(219, 29%, 14%);
+    border-radius: .5rem;
+
+    padding: 1rem;
+    margin: 2rem 2rem 1rem 2rem;
+}
+
+#Kira {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(217, 19%, 35%);
+    border-radius: .5rem;
+
+    padding: 1rem;
+    margin: 2rem 2rem 1rem 2rem;
+}
+
+/***** Reusable Styles Start *****/
 
 .img-wrapper {
     display: flex;
@@ -58,62 +113,20 @@ h4 {
     padding: 1rem;
 }
 
-/***** Global Styles End *****/
+@media screen and (min-width: 1024px) {
+    #testimonials {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+        "daniel daniel jonathan kira"
+        "jeanette patrick patrick kira";
+        gap: 2rem;
+        padding: 2rem;
+    }
 
-body {
-    font-size: 1em;
-    font-family: "Barlow Semi Condensed", sans-serif ;
-
-    display: grid;
-    grid-template-columns: 1fr;
-    height: 100%;
-}
-
-#testimonials {
-    background-color: hsl(214, 17%, 92%);
-}
-
-#Daniel {
-    color: hsl(0, 0%, 100%);
-    background-color: hsl(263, 55%, 52%);
-    border-radius: .5rem;
-
-    padding: 1rem;
-    margin: 2rem 2rem 1rem 2rem;
-}
-
-#Jonathon {
-    color: hsl(0, 0%, 100%);
-    background-color: hsl(217, 19%, 35%);
-    border-radius: .5rem;
-
-    padding: 1rem;
-    margin: 2rem 2rem 1rem 2rem;
-}
-
-#Jeanette {
-    background-color: hsl(0, 0%, 100%);
-    color: hsl(224, 10%, 45%);
-    border-radius: .5rem;
-
-    padding: 1rem;
-    margin: 2rem 2rem 1rem 2rem;
-}
-
-#Patrick {
-    color: hsl(214, 17%, 92%);
-    background-color: hsl(219, 29%, 14%);
-    border-radius: .5rem;
-
-    padding: 1rem;
-    margin: 2rem 2rem 1rem 2rem;
-}
-
-#Kira {
-    background-color: hsl(0, 0%, 100%);
-    color: hsl(217, 19%, 35%);
-    border-radius: .5rem;
-
-    padding: 1rem;
-    margin: 2rem 2rem 1rem 2rem;
+    #Daniel   { grid-area: daniel; margin: 0; }
+    #Jonathan { grid-area: jonathan; margin: 0; }
+    #Kira     { grid-area: kira; margin: 0; }
+    #Jeanette { grid-area: jeanette; margin: 0; }
+    #Patrick  { grid-area: patrick; margin: 0; }
 }
