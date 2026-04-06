@@ -24,6 +24,7 @@ body {
 #Daniel {
     color: hsl(0, 0%, 100%);
     background-color: hsl(263, 55%, 52%);
+    border-radius: .5rem;
 
     margin: 2rem 2rem 1rem 2rem;
 }
@@ -65,11 +66,16 @@ body {
 }
 
 #Daniel .headline {
+    font-size: 1.25rem;
+    font-weight: 600;
 
+    padding: 1rem 1rem 0 1rem;
 }
 
 #Daniel .bio {
 
+
+    padding: 1rem;
 }
 
 /*****************************************************************************************/
