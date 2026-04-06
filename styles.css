@@ -8,6 +8,58 @@ html {
     height: 100%;
 }
 
+/***** Global Styles Start *****/
+
+.img-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+img {
+    border-radius: 50%;
+
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+#Daniel img, #Patrick img {
+    border: 2px solid hsl(264, 82%, 80%);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+h3, h4 {
+    font-size: .9em;
+    font-weight: 400;
+    opacity: .9;
+}
+
+h4 {
+    font-size: .8em;
+
+    padding-top: .2rem;
+}
+
+.headline {
+    font-size: 1.25rem;
+    font-weight: 600;
+
+    padding: 1rem 1rem 0 1rem;
+}
+
+.bio {
+    font-size: .85em;
+
+    padding: 1rem;
+}
+
+/***** Global Styles End *****/
+
 body {
     font-size: 1em;
     font-family: "Barlow Semi Condensed", sans-serif ;
@@ -26,190 +78,42 @@ body {
     background-color: hsl(263, 55%, 52%);
     border-radius: .5rem;
 
+    padding: 1rem;
     margin: 2rem 2rem 1rem 2rem;
 }
-
-#Daniel .wrapper {
-    padding: 1rem;
-}
-
-#Daniel .img-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-
-#Daniel img {
-    border: 2px solid hsl(264, 82%, 80%);
-    border-radius: 50%;
-
-    width: 40px;
-    height: 40px;
-    object-fit: cover;
-}
-
-#Daniel .info {
-    display: flex;
-    flex-direction: column;
-}
-
-#Daniel h3, h4 {
-    font-size: .9em;
-    font-weight: 400;
-    opacity: .9;
-}
-
-#Daniel h4 {
-    font-size: .8em;
-
-    padding-top: .2rem;
-}
-
-#Daniel .headline {
-    font-size: 1.25rem;
-    font-weight: 600;
-
-    padding: 1rem 1rem 0 1rem;
-}
-
-#Daniel .bio {
-
-
-    padding: 1rem;
-}
-
-/*****************************************************************************************/
 
 #Jonathon {
     color: hsl(0, 0%, 100%);
     background-color: hsl(217, 19%, 35%);
+    border-radius: .5rem;
 
+    padding: 1rem;
     margin: 2rem 2rem 1rem 2rem;
 }
-
-#Jonathon .wrapper {
-    margin: 1rem;
-}
-
-#Jonathon .img-wrapper {
-
-}
-
-#Jonathon img {
-
-}
-
-#Jonathon h3 {
-
-}
-
-#Jonathon h4 {
-
-}
-
-#Jonathon .headline {
-
-}
-
-#Jonathon .bio {
-
-}
-
-/*****************************************************************************************/
 
 #Jeanette {
     background-color: hsl(0, 0%, 100%);
     color: hsl(224, 10%, 45%);
+    border-radius: .5rem;
 
+    padding: 1rem;
     margin: 2rem 2rem 1rem 2rem;
 }
-
-#Jeanette .wrapper {
-
-}
-
-#Jeanette img {
-
-}
-
-#Jeanette h3 {
-
-}
-
-#Jeanette h4 {
-
-}
-
-#Jeanette .headline {
-
-}
-
-#Jeanette .bio {
-
-}
-
-/*****************************************************************************************/
 
 #Patrick {
     color: hsl(214, 17%, 92%);
     background-color: hsl(219, 29%, 14%);
+    border-radius: .5rem;
 
+    padding: 1rem;
     margin: 2rem 2rem 1rem 2rem;
 }
-
-#Patrick .wrapper {
-
-}
-
-#Patrick img {
-
-}
-
-#Patrick h3 {
-
-}
-
-#Patrick h4 {
-
-}
-
-#Patrick .headline {
-
-}
-
-#Patrick .bio {
-
-}
-
-/*****************************************************************************************/
 
 #Kira {
     background-color: hsl(0, 0%, 100%);
-    color: hsl(224, 10%, 45%);
+    color: hsl(217, 19%, 35%);
+    border-radius: .5rem;
 
+    padding: 1rem;
     margin: 2rem 2rem 1rem 2rem;
-}
-
-#Kira .wrapper {
-
-}
-
-#Kira img {
-
-}
-
-#Kira h3 {
-
-}
-
-#Kira h4 {
-
-}
-
-#Kira .headline {
-
-}
-
-#Kira .bio {
-
 }
