@@ -9,13 +9,10 @@ html {
 }
 
 body {
+    background-color: hsl(214, 17%, 92%);
     font-size: 1em;
     font-family: "Barlow Semi Condensed", sans-serif ;
     height: 100%;
-}
-
-#testimonials {
-    background-color: hsl(214, 17%, 92%);
 }
 
 #Daniel {
@@ -129,4 +126,25 @@ h4 {
     #Kira     { grid-area: kira; margin: 0; }
     #Jeanette { grid-area: jeanette; margin: 0; }
     #Patrick  { grid-area: patrick; margin: 0; }
+
+    img {
+        width: 60px;
+        height: 60px;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    h4 {
+        font-size: .9em;
+    }
+
+    .headline {
+        font-size: 1.6em;
+    }
+
+    .bio {
+        font-size: 1em;
+    }
 }
